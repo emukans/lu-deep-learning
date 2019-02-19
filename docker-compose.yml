@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  app:
+    build: app
+    container_name: ml-app
+    volumes:
+      - ./app:/usr/src/app
+      - ./app/config/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+    ports:
+      - 8888:8888

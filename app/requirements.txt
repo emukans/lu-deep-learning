@@ -1,0 +1,10 @@
+ipython
+numpy
+pandas
+scipy
+matplotlib
+jupyter
+tensorflow
+torch
+torchvision
+Keras
