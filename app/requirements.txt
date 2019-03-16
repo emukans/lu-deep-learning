@@ -4,7 +4,10 @@ pandas
 scipy
 matplotlib
 jupyter
+sklearn
 tensorflow
 torch
 torchvision
 Keras
+imageio
+
